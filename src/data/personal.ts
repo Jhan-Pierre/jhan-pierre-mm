@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
   languages: ["Español"],
   isAvailable: true,
   availabilityText: "Disponible para trabajar",
-  photo: "/images/profile.jpg",
+  photo: "/images/foto.png",
   socialLinks: [
     {
       platform: "GitHub",
