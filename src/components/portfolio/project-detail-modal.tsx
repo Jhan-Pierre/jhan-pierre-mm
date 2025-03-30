@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
-import { X, Github, Calendar, Code, Users, CheckCircle, ChevronLeft, ChevronRight } from "lucide-react"
+import { X, Calendar, Code, Users, CheckCircle, ChevronLeft, ChevronRight } from "lucide-react"
+import { FaGithub } from "react-icons/fa"
 import type { Project } from "@/types"
 
 interface ProjectDetailModalProps {
@@ -209,7 +210,7 @@ export default function ProjectDetailModal({ project, onCloseAction }: ProjectDe
                         rel="noopener noreferrer"
                         className="w-full flex items-center justify-center gap-2 bg-zinc-700 hover:bg-zinc-600 text-white py-3 rounded-lg transition-colors shadow-md"
                     >
-                        <Github className="w-5 h-5" />
+                        <FaGithub className="w-5 h-5" />
                         <span>Ver código en GitHub</span>
                     </a>
                 </div>
