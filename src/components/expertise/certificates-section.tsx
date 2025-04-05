@@ -37,7 +37,7 @@ export default function CertificatesSection() {
 
         // Siempre incluir "all"
         return certificateCategories.filter((category) => category.id === "all" || categories.has(category.id))
-    }, [certificates])
+    }, [])
 
     // Función para formatear la fecha (mostrar solo las 3 primeras letras del mes)
     const formatDate = (dateString: string) => {
@@ -96,7 +96,12 @@ export default function CertificatesSection() {
 
             {/* Modal de certificado */}
             {selectedCertificate && (
-                <CertificateModal certificate={selectedCertificate} onCloseAction={handleCloseModal} formatDateAction={formatDate} />
+                <CertificateModal
+                    certificate={selectedCertificate}
+                    isOpen={!!selectedCertificate}
+                    onCloseAction={handleCloseModal}
+                    formatDateAction={formatDate}
+                />
             )}
         </div>
     )

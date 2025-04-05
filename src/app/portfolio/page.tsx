@@ -35,7 +35,13 @@ export default function PortfolioPage() {
                 <ProjectFilters filter={filter} setFilterAction={setFilter} />
                 <ProjectGrid projects={filteredProjects} onViewProjectAction={handleViewProject} />
 
-                {selectedProject && <ProjectDetailModal project={selectedProject} onCloseAction={handleCloseModal} />}
+                {selectedProject && (
+                    <ProjectDetailModal
+                        project={selectedProject}
+                        isOpen={!!selectedProject}
+                        onCloseAction={handleCloseModal}
+                    />
+                )}
             </div>
         </main>
     )
