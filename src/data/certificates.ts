@@ -25,8 +25,8 @@ export const certificates: Certificate[] = [
     imagePath: "/certificados/1.jpg",
     skills: ["Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "RESTful APIs"],
     stats: {
-      hours: 35,
-      weeks: 8,
+      hours: 12,
+      weeks: 3,
     },
   },
   {
@@ -39,11 +39,11 @@ export const certificates: Certificate[] = [
     category: "agile",
     color: "from-blue-400 to-indigo-500",
     credentialUrl: "https://www.scrumstudy.com/certification/verify?type=SFC&number=1071248",
-    imagePath: "",
+    imagePath: "/certificados/2.webp",
     skills: ["Scrum", "Sprint Planning", "User Stories", "Product Backlog", "Agile Mindset"],
     stats: {
-      hours: 25,
-      weeks: 6,
+      hours: 10,
+      weeks: 1,
     },
   },
   {
@@ -56,11 +56,11 @@ export const certificates: Certificate[] = [
     category: "other",
     color: "from-green-400 to-teal-500",
     credentialUrl: "https://www.udemy.com/certificate/UC-5c8dbbf8-9373-4cbe-89db-8b86b8612294/",
-    imagePath: "",
+    imagePath: "/certificados/3.webp",
     skills: ["Excel Avanzado", "Tablas Dinámicas", "Macros", "VBA", "Fórmulas Complejas"],
     stats: {
-      hours: 40,
-      weeks: 10,
+      hours: 13.5,
+      weeks: 4,
     },
   },
   {
