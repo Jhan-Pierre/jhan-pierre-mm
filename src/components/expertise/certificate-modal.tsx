@@ -64,7 +64,7 @@ export default function CertificateModal({ certificate, isOpen, onCloseAction, f
             <div className="p-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Columna izquierda - Imagen del certificado */}
                 <div className="bg-zinc-800/50 rounded-xl overflow-hidden border border-zinc-700/30 p-4">
-                    <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden">
+                    <div className="relative w-full aspect-[1/1] rounded-lg overflow-hidden">
                         <Image
                             src={certificate.imagePath || "/placeholder.svg"}
                             alt={`Certificado: ${certificate.title}`}
@@ -72,7 +72,7 @@ export default function CertificateModal({ certificate, isOpen, onCloseAction, f
                             className="object-contain"
                             onError={(e) => {
                                 e.currentTarget.onerror = null
-                                e.currentTarget.src = "/placeholder.svg?height=400&width=800&text=Certificado"
+                                e.currentTarget.src = "/placeholder.svg?height=500&width=900&text=Certificado"
                             }}
                         />
                     </div>
