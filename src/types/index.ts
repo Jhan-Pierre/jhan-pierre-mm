@@ -78,11 +78,18 @@ export interface Certificate {
     category: string
     color: string
     credentialUrl?: string
+    imagePath: string
+    skills: string[]
+    stats?: {
+        hours: number
+        weeks: number
+    }
 }
 
 export interface CertificateCategory {
     id: string
     label: string
+    badgeColor: string
 }
 
 // Tipos para logros

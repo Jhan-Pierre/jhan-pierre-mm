@@ -1,6 +1,6 @@
 "use client"
 
-import { useRef, useMemo } from "react"
+import { useRef, useMemo, useState } from "react"
 import { certificates, certificateCategories } from "@/data/certificates"
 import { useFilteredCertificates } from "@/hooks/useFilteredCertificates"
 import SectionIconHeading from "@/components/ui/section-icon-heading"
@@ -8,9 +8,12 @@ import { Award } from "lucide-react"
 import CertificateFilters from "./certificate-filters"
 import CertificateGrid from "./certificate-grid"
 import CertificatePagination from "./certificate-pagination"
+import CertificateModal from "./certificate-modal"
+import type { Certificate } from "@/types"
 
 export default function CertificatesSection() {
     const certificationsRef = useRef<HTMLDivElement>(null)
+    const [selectedCertificate, setSelectedCertificate] = useState<Certificate | null>(null)
 
     const {
         filter,
@@ -23,7 +26,7 @@ export default function CertificatesSection() {
         totalPages,
         paginate,
         resetFilters,
-    } = useFilteredCertificates(certificates)
+    } = useFilteredCertificates(certificates, 10) // Aumentado a 10 certificados por página
 
     // Calcular categorías que tienen certificados
     const categoriesWithCertificates = useMemo(() => {
@@ -32,10 +35,9 @@ export default function CertificatesSection() {
             categories.add(cert.category)
         })
 
-        return certificateCategories.filter(
-            (category) => category.id === "all" || categories.has(category.id)
-        )
-    }, [])
+        // Siempre incluir "all"
+        return certificateCategories.filter((category) => category.id === "all" || categories.has(category.id))
+    }, [certificates])
 
     // Función para formatear la fecha (mostrar solo las 3 primeras letras del mes)
     const formatDate = (dateString: string) => {
@@ -45,6 +47,14 @@ export default function CertificatesSection() {
             return `${month} ${parts[1]}`
         }
         return dateString
+    }
+
+    const handleViewCertificate = (certificate: Certificate) => {
+        setSelectedCertificate(certificate)
+    }
+
+    const handleCloseModal = () => {
+        setSelectedCertificate(null)
     }
 
     return (
@@ -75,11 +85,19 @@ export default function CertificatesSection() {
 
             {/* Grid de certificados */}
             {filteredCertificates.length > 0 && (
-                <CertificateGrid certificates={currentCertificates} formatDate={formatDate} />
+                <CertificateGrid
+                    certificates={currentCertificates}
+                    onViewCertificateAction={handleViewCertificate}
+                />
             )}
 
             {/* Paginación */}
             <CertificatePagination currentPage={currentPage} totalPages={totalPages} paginateAction={paginate} />
+
+            {/* Modal de certificado */}
+            {selectedCertificate && (
+                <CertificateModal certificate={selectedCertificate} onCloseAction={handleCloseModal} formatDateAction={formatDate} />
+            )}
         </div>
     )
 }
