@@ -73,7 +73,7 @@ export const certificates: Certificate[] = [
     category: "database",
     color: "from-orange-400 to-amber-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/1272-sql-mysql/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/4.webp",
     skills: ["SQL", "MySQL", "Diseño de Bases de Datos", "Optimización de Consultas", "Normalización"],
     stats: {
       hours: 30,
@@ -90,7 +90,7 @@ export const certificates: Certificate[] = [
     category: "frontend",
     color: "from-red-400 to-pink-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/2008-html-css/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/5.webp",
     skills: ["HTML5", "CSS3", "Responsive Design", "Flexbox", "CSS Grid", "Accesibilidad Web"],
     stats: {
       hours: 28,
@@ -107,7 +107,7 @@ export const certificates: Certificate[] = [
     category: "other",
     color: "from-gray-400 to-gray-600",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/1557-git-github/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/6.webp",
     skills: ["Git", "GitHub", "Control de Versiones", "Branching", "Pull Requests", "GitHub Actions"],
     stats: {
       hours: 22,
@@ -124,7 +124,7 @@ export const certificates: Certificate[] = [
     category: "agile",
     color: "from-blue-400 to-indigo-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/1750-scrum/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/7.webp",
     skills: ["Scrum Avanzado", "Gestión de Equipos", "Sprint Retrospective", "Métricas Ágiles", "Escalado Scrum"],
     stats: {
       hours: 32,
@@ -141,11 +141,11 @@ export const certificates: Certificate[] = [
     category: "other",
     color: "from-purple-400 to-indigo-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/3093-ingles-basico-principiantes/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/8.webp",
     skills: ["Inglés Básico", "Vocabulario Técnico", "Gramática Fundamental", "Pronunciación", "Comprensión Lectora"],
     stats: {
       hours: 24,
-      weeks: 6,
+      weeks: 3,
     },
   },
   {
@@ -158,11 +158,11 @@ export const certificates: Certificate[] = [
     category: "mobile",
     color: "from-purple-400 to-indigo-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/2245-kotlin/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/9.webp",
     skills: ["Kotlin", "Android", "Corrutinas", "Programación Orientada a Objetos", "Jetpack Compose"],
     stats: {
-      hours: 36,
-      weeks: 9,
+      hours: 12,
+      weeks: 3,
     },
   },
   {
@@ -175,11 +175,11 @@ export const certificates: Certificate[] = [
     category: "frontend",
     color: "from-cyan-400 to-blue-500",
     credentialUrl: "https://platzi.com/p/JhanPierre_Dev/curso/2030-mobile-first/diploma/detalle/",
-    imagePath: "",
+    imagePath: "/certificados/10.webp",
     skills: ["Mobile First", "Media Queries", "Responsive Design", "Optimización de Recursos", "UX Adaptable"],
     stats: {
-      hours: 20,
-      weeks: 5,
+      hours: 8,
+      weeks: 2,
     },
   },
   {
