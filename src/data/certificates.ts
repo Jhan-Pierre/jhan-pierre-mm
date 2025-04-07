@@ -193,7 +193,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://www.linkedin.com/learning/certificates/41ed28cbb298a4d7ad6e64bfe90e9ab2f096324429c2a0531e46eff4250bcb5f",
-    imagePath: "",
+    imagePath: "/certificados/11.webp",
     skills: [
       "Python",
       "Programación Orientada a Objetos",
@@ -217,7 +217,7 @@ export const certificates: Certificate[] = [
     color: "from-gray-400 to-gray-600",
     credentialUrl:
         "https://www.linkedin.com/learning/certificates/bc9d5c749879054725f87d81bf331062c4036aa0d3df6f0dd6c7631a6b24d22b",
-    imagePath: "",
+    imagePath: "/certificados/12.webp",
     skills: ["Algoritmos", "Estructuras de Datos", "Lógica de Programación", "Resolución de Problemas", "Debugging"],
     stats: {
       hours: 18,
@@ -235,7 +235,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://www.linkedin.com/learning/certificates/6109e386780d69dee5c2156bbe1d665383c2290144fbd6e86bac458277f886ea",
-    imagePath: "",
+    imagePath: "/certificados/13.webp",
     skills: ["SDLC", "Análisis de Requisitos", "Diseño de Software", "Testing", "Mantenimiento de Software"],
     stats: {
       hours: 26,
@@ -253,7 +253,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://www.linkedin.com/learning/certificates/6e5e718b910458716453092a4e445e11a16014e02bec267d6709bb01decbb7b4",
-    imagePath: "",
+    imagePath: "/certificados/14.webp",
     skills: [
       "Comunicación Efectiva",
       "Trabajo en Equipo",
@@ -277,7 +277,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQGyR4vt6Ihu9Q/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1721154598298?e=1743638400&v=beta&t=fIfWyqUfIdd2NEYK5y0LB9OazGuGpNasCpTVlLvIC8A",
-    imagePath: "",
+    imagePath: "/certificados/15.webp",
     skills: ["Scrum", "Agile", "Product Owner", "Scrum Master", "Development Team", "Sprint"],
     stats: {
       hours: 20,
@@ -295,7 +295,7 @@ export const certificates: Certificate[] = [
     color: "from-gray-400 to-gray-600",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQHfIgltSO58JA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870499586?e=1743638400&v=beta&t=CAiDNMpfXC0ceOnaXJoGAI_tL9seFvy5pC6dtMbKCRU",
-    imagePath: "",
+    imagePath: "/certificados/16.webp",
     skills: ["Lenguaje C", "Punteros", "Gestión de Memoria", "Estructuras de Datos", "Programación Estructurada"],
     stats: {
       hours: 32,
@@ -313,7 +313,7 @@ export const certificates: Certificate[] = [
     color: "from-gray-400 to-gray-600",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQFDgX_5g-GBZg/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870578059?e=1743638400&v=beta&t=WoxrZoVgz7zyn4ObSWWbL5yAIh9I31ebQhEXpmq0aOg",
-    imagePath: "",
+    imagePath: "/certificados/17.webp",
     skills: ["C++", "Programación Orientada a Objetos", "Plantillas", "STL", "Manejo de Excepciones"],
     stats: {
       hours: 34,
@@ -331,7 +331,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQFLbTTmkUBP5g/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870667408?e=1743638400&v=beta&t=ckYYgiUNmSSVQH2Ks2wCJKbiR_6XGsUDJGMzmWlFEzg",
-    imagePath: "",
+    imagePath: "/certificados/18.webp",
     skills: ["Redes", "TCP/IP", "Modelo OSI", "Direccionamiento IP", "Protocolos de Red", "Seguridad Básica"],
     stats: {
       hours: 30,
@@ -349,7 +349,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQGpsUrUOZwVig/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870734588?e=1743638400&v=beta&t=cSLUKONvg6V55kOLHhv0LzqajcsBb68Npu6CtC7B7KU",
-    imagePath: "",
+    imagePath: "/certificados/19.webp",
     skills: ["Python", "Estructuras de Datos", "Programación Orientada a Objetos", "Módulos", "Manejo de Excepciones"],
     stats: {
       hours: 28,
@@ -367,7 +367,7 @@ export const certificates: Certificate[] = [
     color: "from-green-400 to-emerald-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQHAFBITLfWXRw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870881052?e=1743638400&v=beta&t=0NKFkFW4glVHNfnWwI4veoV2-_XtZa0iV4qmytr2BdY",
-    imagePath: "",
+    imagePath: "/certificados/20.webp",
     skills: ["Emprendimiento", "Modelos de Negocio", "Análisis de Mercado", "Plan de Negocios", "Gestión de Recursos"],
     stats: {
       hours: 22,
@@ -385,7 +385,7 @@ export const certificates: Certificate[] = [
     color: "from-red-400 to-pink-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQFMnm-rzLaGTA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870924018?e=1743638400&v=beta&t=4r-KOfbrxQEMm1PysXtdQShNyYtUcpZPnFVkNGf4_yo",
-    imagePath: "",
+    imagePath: "/certificados/21.webp",
     skills: [
       "Ciberseguridad",
       "Amenazas de Seguridad",
@@ -409,7 +409,7 @@ export const certificates: Certificate[] = [
     color: "from-blue-400 to-indigo-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQHGS7aAkfZ1BA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870838576?e=1743638400&v=beta&t=-ciiRat-2P5lHXVG30xiiAckOFOe3_-L4O7vCaJIi94",
-    imagePath: "",
+    imagePath: "/certificados/22.webp",
     skills: ["Tecnologías Digitales", "Internet", "Hardware", "Software", "Sistemas Operativos", "Redes Básicas"],
     stats: {
       hours: 16,
@@ -427,7 +427,7 @@ export const certificates: Certificate[] = [
     color: "from-green-400 to-teal-500",
     credentialUrl:
         "https://media.licdn.com/dms/document/media/v2/D4E2DAQEjCAj8glvN7w/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1722870795416?e=1743638400&v=beta&t=xAoUF5MBMRxMIm0lrTMtDAWQ5R729gdxVdRlNqhlMpw",
-    imagePath: "",
+    imagePath: "/certificados/23.webp",
     skills: ["IoT", "Sensores", "Actuadores", "Protocolos IoT", "Conectividad", "Aplicaciones IoT"],
     stats: {
       hours: 20,
