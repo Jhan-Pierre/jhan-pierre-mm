@@ -14,6 +14,7 @@ import type { Certificate } from "@/types"
 export default function CertificatesSection() {
     const certificationsRef = useRef<HTMLDivElement>(null)
     const [selectedCertificate, setSelectedCertificate] = useState<Certificate | null>(null)
+    const reversedCertificates = useMemo(() => [...certificates].reverse(), [])
 
     const {
         filter,
@@ -26,7 +27,7 @@ export default function CertificatesSection() {
         totalPages,
         paginate,
         resetFilters,
-    } = useFilteredCertificates(certificates, 10) // Aumentado a 10 certificados por página
+    } = useFilteredCertificates(reversedCertificates, 10) // Aumentado a 10 certificados por página
 
     // Calcular categorías que tienen certificados
     const categoriesWithCertificates = useMemo(() => {

@@ -4,12 +4,13 @@ import { Briefcase } from "lucide-react"
 import TimelineItem from "@/components/ui/timeline-item"
 
 export default function ExperienceSection() {
+    const reversedExperiences = [...experiences].reverse()
     return (
         <div className="mb-10">
             <SectionIconHeading title="Experiencia Laboral" icon={Briefcase} />
 
             <div className="space-y-8">
-                {experiences.map((exp) => (
+                {reversedExperiences.map((exp) => (
                     <TimelineItem
                         key={exp.id}
                         title={exp.title}

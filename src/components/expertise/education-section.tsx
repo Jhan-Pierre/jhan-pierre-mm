@@ -4,12 +4,15 @@ import { GraduationCap } from "lucide-react"
 import TimelineItem from "@/components/ui/timeline-item"
 
 export default function EducationSection() {
+
+    const reversedEducation = [...education].reverse()
+
     return (
         <div className="mb-10">
             <SectionIconHeading title="Educación" icon={GraduationCap} />
 
             <div>
-                {education.map((edu) => (
+                {reversedEducation.map((edu) => (
                     <TimelineItem
                         key={edu.id}
                         title={edu.title}

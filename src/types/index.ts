@@ -69,6 +69,7 @@ export interface Project {
 }
 
 // Tipos para certificaciones
+// Tipos para certificaciones
 export interface Certificate {
     id: number
     title: string
@@ -80,10 +81,6 @@ export interface Certificate {
     credentialUrl?: string
     imagePath: string
     skills: string[]
-    stats?: {
-        hours: number
-        weeks: number
-    }
 }
 
 export interface CertificateCategory {

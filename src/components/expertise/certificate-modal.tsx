@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowLeft, Award, Calendar, Tag, BookOpen, Users, ExternalLink } from "lucide-react"
+import { ArrowLeft, Award, Calendar, Tag, ExternalLink } from "lucide-react"
 import Image from "next/image"
 import type { Certificate } from "@/types"
 import { Badge } from "@/components/ui/badge"
@@ -47,7 +47,7 @@ export default function CertificateModal({ certificate, isOpen, onCloseAction, f
     const moderateDescription = getModerateDescription(certificate.description)
 
     return (
-        <BaseModal isOpen={isOpen} onCloseAction={onCloseAction} maxWidth="max-w-5xl">
+        <BaseModal isOpen={isOpen} onCloseAction={onCloseAction} maxWidth="max-w-4xl">
             {/* Header */}
             <div className="sticky top-0 z-30 bg-zinc-900/95 backdrop-blur-sm border-b border-zinc-800 p-4 flex justify-between items-center">
                 <button
@@ -120,23 +120,6 @@ export default function CertificateModal({ certificate, isOpen, onCloseAction, f
                                 </Badge>
                             ))}
                         </div>
-                    </div>
-
-                    {/* Estadísticas */}
-                    <div className="grid grid-cols-2 gap-4 mb-5">
-                        <InfoCard
-                            icon={<BookOpen className="text-cyan-400" />}
-                            label="Duración"
-                            value={`${certificate.stats?.hours || 20} horas`}
-                            colorClass="bg-cyan-500/10"
-                        />
-
-                        <InfoCard
-                            icon={<Users className="text-amber-400" />}
-                            label="Programa"
-                            value={`${certificate.stats?.weeks || 5} semanas`}
-                            colorClass="bg-amber-500/10"
-                        />
                     </div>
 
                     {/* Enlace a credencial original */}
