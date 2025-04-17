@@ -57,7 +57,5 @@ Si deseas desplegar este proyecto en Vercel, sigue estos pasos:
    ```
    Sigue las instrucciones en pantalla para configurar el proyecto en Vercel.
 
----
-Con estos pasos, tendrás tu portafolio ejecutándose en local y listo para su despliegue. ¡Éxito con tu proyecto!
 
 
