@@ -10,13 +10,11 @@ export default function AboutSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                 <div className="md:col-span-2 space-y-3 sm:space-y-4 text-gray-300">
                     <p className="text-base sm:text-lg leading-relaxed">
-                        Profesional Técnico en Desarrollo de Software con más de un año de experiencia como practicante técnico.
-                        Cuento con conocimientos en Kotlin, Java, PHP, Laravel, ASP.NET MVC y bases de datos SQL.
+                        Profesional Técnico en Desarrollo de Software con más de un año de experiencia.
+                        Cuento con conocimientos en Java, Spring Boot, PHP, Laravel, .NET Framework y bases de datos SQL.
                     </p>
                     <p className="text-sm sm:text-base leading-relaxed">
-                        Me considero una persona autodidacta, proactiva y comprometida con aprender nuevas tecnologías. Poseo
-                        experiencia en trabajo en equipo bajo SCRUM y manejo de GitHub para control de versiones. Estoy listo para
-                        enfrentar nuevos desafíos y aportar soluciones innovadoras.
+                        Apasionado por la tecnología y el desarrollo web, disfruto crear soluciones que realmente aporten valor. Me gusta aprender constantemente, asumir nuevos retos y crecer con cada proyecto. Busco siempre la mejora continua, tanto a nivel técnico como personal, para desarrollar productos funcionales, modernos y con impacto real.
                     </p>
 
                     <div className="pt-3 sm:pt-4 flex flex-wrap gap-3 sm:gap-4">
