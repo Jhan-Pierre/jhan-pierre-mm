@@ -8,11 +8,14 @@ interface ProjectGridProps {
 }
 
 export default function ProjectGrid({ projects, onViewProjectAction }: ProjectGridProps) {
+
+    const reversedProjects = [...projects].reverse();
+
     return (
         <div>
             {projects.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-                    {projects.map((project) => (
+                    {reversedProjects.map((project) => (
                         <ProjectCard key={project.id} project={project} onViewProjectAction={onViewProjectAction} />
                     ))}
                 </div>

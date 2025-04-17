@@ -10,7 +10,7 @@ export const projectCategories = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Ecommerce - Proyecto Colaborativo",
+    title: "Ecommerce",
     category: "web",
     images: [
       "/placeholder.svg?height=300&width=600",
@@ -58,19 +58,25 @@ export const projects: Project[] = [
     id: 3,
     title: "Historial Plus - Proyecto Colaborativo",
     category: "web",
-    images: ["/placeholder.svg?height=300&width=600"],
+    images: ["/proyects/historialplus/1.png",
+      "/proyects/historialplus/2.png",
+      "/proyects/historialplus/3.png",
+      "/proyects/historialplus/4.png",
+      "/proyects/historialplus/5.png",
+    ],
     description:
         "Sistema web para la gestión de historiales médicos, permitiendo a los pacientes acceder a sus registros clínicos, incluyendo imágenes y documentos médicos subidos por los doctores.",
     technologies: ["Java", "Spring Boot", "Spring Security", "React", "MySql", "Clodflare R2" ,"Git Hub"],
     demoUrl: "#",
-    codeUrl: "https://github.com/Jhan-Pierre/notes-app",
-    period: "2022 - 2023",
-    role: "Desarrollador Mobile",
+    codeUrl: "https://github.com/luislh-dev/HistorialPlus",
+    period: "Octubre 2024 - Abril 2025",
+    role: "Desarrollador Backend",
     features: [
-      "Sincronización entre dispositivos",
-      "Notificaciones personalizables",
-      "Modo oscuro y temas personalizables",
-      "Funcionamiento offline con sincronización posterior",
+      "Autenticación y Autorización",
+      "Gestión de Usuarios y Pacientes",
+      "Administración de Historiales Clínicos",
+      "Gestión de Archivos Médicos",
+      "Rendimiento y Optimización",
     ],
   },
 ]
