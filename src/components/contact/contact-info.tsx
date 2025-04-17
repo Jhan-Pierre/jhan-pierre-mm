@@ -26,7 +26,9 @@ export default function ContactInfo() {
                 </a>
 
                 <a
-                    href={`tel:${personalInfo.phone.replace(/[^0-9+]/g, "")}`}
+                    href={`https://wa.me/${personalInfo.phone.replace(/[^0-9+]/g, "")}?text=Hola,%20te%20contacto%20por%20motivo%20de%20...`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg hover:bg-zinc-700/30 transition-all group"
                 >
                     <div className="bg-cyan-500/10 p-2 sm:p-3 rounded-lg group-hover:bg-cyan-500/20 transition-all">
