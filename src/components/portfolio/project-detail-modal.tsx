@@ -36,7 +36,7 @@ export default function ProjectDetailModal({ project, isOpen, onCloseAction }: P
     return (
         <BaseModal isOpen={isOpen} onCloseAction={onCloseAction} maxWidth="max-w-3xl">
             {/* Contenedor de imagen sin bordes ni espacios */}
-            <div className="relative h-64 sm:h-72 w-full">
+            <div className="relative h-64 sm:h-96 w-full">
                 {/* Imagen actual */}
                 <Image
                     src={project.images[currentImageIndex] || "/placeholder.svg"}
