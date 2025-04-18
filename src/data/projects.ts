@@ -10,12 +10,16 @@ export const projectCategories = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Ecommerce",
+    title: "CosmoZen - Ecommerce",
     category: "web",
     images: [
-      "/placeholder.svg?height=300&width=600",
-      "/placeholder.svg?height=300&width=600&text=Pantalla+Principal",
-      "/placeholder.svg?height=300&width=600&text=Dashboard",
+      "/proyects/cosmozen/1.png",
+      "/proyects/cosmozen/2.png",
+      "/proyects/cosmozen/3.png",
+      "/proyects/cosmozen/4.png",
+      "/proyects/cosmozen/5.png",
+      "/proyects/cosmozen/6.png",
+      "/proyects/cosmozen/7.png",
     ],
     description:
         "HubTodoAppSistema web con un panel de administración intuitivo y una plataforma de ventas en línea, que permite gestionar productos, pedidos y realizar pagos de manera segura a través de PayPal.",
