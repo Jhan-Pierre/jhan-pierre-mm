@@ -159,10 +159,10 @@ export default function Sidebar() {
 
             {/* Botón de descarga CV */}
             <a
-                href="/files/jhan-pierre-cv.pdf"
+                href="/files/CV-JHAN_PIERRE-DEV.pdf"
                 onClick={(e) => {
                     e.preventDefault()
-                    window.open("/files/jhan-pierre-cv.pdf", "_blank")
+                    window.open("/files/CV-JHAN_PIERRE-DEV.pdf", "_blank")
                 }}
                 className="w-full flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white py-2 rounded-md transition-colors my-3 text-sm"
             >
