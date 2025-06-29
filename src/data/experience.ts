@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
     ],
     skills: ["SQL Server", "C#", ".NET Framework", "Metodología Scrum", "Git", "GitHub"],
     achievements: [
-      "Se redujo un 30% la carga laboral del área de producción al implementar un sistema web optimizad.",
+      "Se redujo un 30% la carga laboral del área de producción al implementar un sistema web optimizado.",
       "Se garantizó la integración, actualización periódica y estabilidad del sistema, asegurando su eficiencia continua.",
     ],
   },
