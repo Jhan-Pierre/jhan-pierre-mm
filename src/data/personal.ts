@@ -8,7 +8,7 @@ export const personalInfo: PersonalInfo = {
   location: "Carabayllo, Lima, Perú",
   languages: ["Español"],
   isAvailable: true,
-  availabilityText: "Disponible para trabajar",
+  availabilityText: "Trabajando",
   photo: "/images/foto.png",
   socialLinks: [
     {

@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
     id: 2,
     title: "Full Stack Developer | Coordinador de Equipo",
     company: "NEUROQUANTIX",
-    period: "Feb 2025 - May 2025",
+    period: "Feb 2025 - Jun 2025",
     type: "Tiempo Completo",
     description: [
         "Desarrollé e implementé módulos de inicio de sesión con autenticación segura, utilizando tokens para reforzar la seguridad en el acceso. A lo largo del proceso, documenté de manera detallada las APIs desarrolladas, asegurando que la integración fuera clara y comprensible. Realicé pruebas unitarias exhaustivas para verificar el correcto funcionamiento de cada componente y asegurarme de que no se presentaran errores en el sistema. Además, optimicé los módulos existentes, lo que permitió mejorar considerablemente el rendimiento y la eficiencia del sistema, brindando una experiencia más fluida y estable para los usuarios."
@@ -31,6 +31,20 @@ export const experiences: Experience[] = [
       "Se implementó autenticación segura con tokens, reforzando la seguridad en el acceso al sistema.",
     ],
   },
+  {
+    id: 3,
+    title: "Asistente en Proyectos TI",
+    company: "OBSERVATORIO DEL DELITO Y LA CRIMINALIDAD DE LA PNP",
+    period: "Jul 2025 - Actualidad",
+    type: "Tiempo Completo",
+    description: [
+      "Asistí en la implementación de un sistema de gestión de datos para el Observatorio del Delito y la Criminalidad, colaborando en el desarrollo de herramientas para el análisis y visualización de datos. Participé en la integración de bases de datos y en la creación de informes estadísticos que apoyan la toma de decisiones estratégicas.",
+    ],
+    skills: ["ASP.NET CORE", "SQL Server", "C#", "Git", "GitHub", "Metodología Scrum"],
+    achievements: [
+      "Se desarrollaron herramientas de análisis y visualización de datos que mejoraron la toma de decisiones estratégicas."
+    ],
+  },
 ]
 
 export const education: Education[] = [
@@ -39,7 +53,7 @@ export const education: Education[] = [
     title: "TEC. DESARROLLO DE SOFTWARE",
     institution: "SENATI",
     period: "2022 - 2024",
-    type: "Egresado",
+    type: "Titulado a Nombre de la Nación",
     description:
       "Formación técnica profesional en desarrollo de software, con enfoque en programación, bases de datos, análisis y diseño de sistemas. Adquisición de habilidades prácticas para el desarrollo de aplicaciones web y de escritorio, incluyendo cursos especializados en Java, PHP, C# y tecnologías web modernas.",
     skills: ["Programación", "Bases de Datos", "Análisis de Sistemas", "Desarrollo Web"],

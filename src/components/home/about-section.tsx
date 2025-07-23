@@ -54,7 +54,7 @@ export default function AboutSection() {
                         </div>
                         <div>
                             <h3 className="font-medium">Experiencia</h3>
-                            <p className="text-gray-400 text-sm">+1 año</p>
+                            <p className="text-gray-400 text-sm">+2 año</p>
                         </div>
                     </div>
 
