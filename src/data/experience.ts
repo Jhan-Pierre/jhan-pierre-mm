@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     description: [
       "Asistí en la implementación de un sistema de gestión de datos para el Observatorio del Delito y la Criminalidad, colaborando en el desarrollo de herramientas para el análisis y visualización de datos. Participé en la integración de bases de datos y en la creación de informes estadísticos que apoyan la toma de decisiones estratégicas.",
     ],
-    skills: ["ASP.NET CORE", "SQL Server", "C#", "Git", "GitHub", "Metodología Scrum"],
+    skills: ["Java", "Spring Boot", "C#", ".NET CORE", "Python", "SQL Server", "Git Hub", "Scrum"],
     achievements: [
       "Se desarrollaron herramientas de análisis y visualización de datos que mejoraron la toma de decisiones estratégicas."
     ],
