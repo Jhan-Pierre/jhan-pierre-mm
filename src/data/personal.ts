@@ -32,6 +32,6 @@ export const personalInfo: PersonalInfo = {
       icon: "Facebook",
     },
   ],
-  coffeeCups: 1254,
+  coffeeCups: 999,
 }
 
