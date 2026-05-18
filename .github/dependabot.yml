@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily" # Revisa vulnerabilidades todos los días
+    open-pull-requests-limit: 5
+    # Permite agrupar actualizaciones de parches para no llenarte de PRs
+    groups:
+      seguridad-parches:
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
