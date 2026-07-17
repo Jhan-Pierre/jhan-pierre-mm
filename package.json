@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "autoprefixer": "^10.5.3",
+    "autoprefixer": "^10.5.4",
     "clsx": "^2.1.1",
     "emailjs": "^5.0.2",
     "lucide-react": "^1.24.0",
