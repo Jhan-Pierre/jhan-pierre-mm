@@ -13,7 +13,7 @@
     "autoprefixer": "^10.6.2",
     "clsx": "^2.1.1",
     "emailjs": "^5.0.4",
-    "lucide-react": "^1.67.0",
+    "lucide-react": "^1.70.0",
     "next": "^16.4.5",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
